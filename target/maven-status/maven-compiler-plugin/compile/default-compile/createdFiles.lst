@@ -1,0 +1,8 @@
+com/example/washifyservice/repository/DeviceRepository.class
+com/example/washifyservice/controller/DeviceController.class
+com/example/washifyservice/controller/UserController.class
+com/example/washifyservice/model/Device.class
+com/example/washifyservice/WashifyServiceApplication.class
+com/example/washifyservice/model/User.class
+com/example/washifyservice/repository/UserRepository.class
+com/example/washifyservice/exception/ResourceNotFoundException.class

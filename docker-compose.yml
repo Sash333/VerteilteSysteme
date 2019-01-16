@@ -1,0 +1,16 @@
+version: '2'
+services:
+  washifyService:
+    image: washify-service:1.0
+    ports:
+    - "8080:8080"
+    depends_on:
+    - mypostgres
+  mypostgres:
+    image: postgres:latest
+    ports:
+     - "5432:5432"
+    environment:
+     - POSTGRES_PASSWORD=password
+     - POSTGRES_USER=root
+     - POSTGRES_DB=washify
